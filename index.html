@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- site metas -->
+<title>Capiclean</title>
+<meta name="keywords" content="">
+<!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- fevicon -->
+<link rel="icon" href="images/fevicon.png" type="image/gif" />
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<!-- owl stylesheets --> 
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+
+</head>
+</body>
+
+    <body>
+        <!--header section start -->
+          <div class="header_section">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-3">
+                  <!-- <div class="logo"><a href="index.html"><img src="{% static 'images/logo.png' %}"></a></div -->
+                    <div class="logo"> <a href="index.html">
+                      <svg width="400" height="90" viewBox="0 0 762 177" fill="none">
+                        <rect x="37" y="88" width="73" height="48" fill="#FDFFFF"/>
+                        <path d="M223.398 69.8789C223.398 71.2148 223.035 72.4688 222.309 73.6406C221.605 74.8125 220.715 75.8906 219.637 76.875C218.582 77.8359 217.422 78.6914 216.156 79.4414C214.914 80.168 213.754 80.7422 212.676 81.1641C211.527 81.6094 210.355 81.9727 209.16 82.2539C207.988 82.5117 206.805 82.6758 205.609 82.7461L204.906 81.5156C205.914 81.2578 206.945 80.8477 208 80.2852C209.055 79.7227 210.016 79.043 210.883 78.2461C211.75 77.4258 212.453 76.5117 212.992 75.5039C213.555 74.4961 213.836 73.4062 213.836 72.2344C213.836 71.4141 213.684 70.6875 213.379 70.0547C213.098 69.4219 212.699 68.8945 212.184 68.4727C211.691 68.0273 211.105 67.6992 210.426 67.4883C209.746 67.2539 209.008 67.1367 208.211 67.1367C206.266 67.1367 204.531 67.5 203.008 68.2266C201.508 68.9531 200.184 69.9375 199.035 71.1797C197.887 72.3984 196.914 73.8047 196.117 75.3984C195.32 76.9922 194.664 78.668 194.148 80.4258C193.656 82.1602 193.293 83.918 193.059 85.6992C192.848 87.4805 192.742 89.1562 192.742 90.7266C192.742 91.8984 192.801 93.1406 192.918 94.4531C193.059 95.7422 193.293 97.0312 193.621 98.3203C193.949 99.6094 194.383 100.84 194.922 102.012C195.461 103.184 196.141 104.215 196.961 105.105C197.781 105.996 198.742 106.711 199.844 107.25C200.969 107.766 202.27 108.023 203.746 108.023C205.012 108.023 206.195 107.789 207.297 107.32C208.398 106.852 209.406 106.23 210.32 105.457C211.234 104.684 212.043 103.781 212.746 102.75C213.473 101.719 214.082 100.641 214.574 99.5156C215.09 98.3906 215.477 97.2539 215.734 96.1055C215.992 94.957 216.121 93.8672 216.121 92.8359L223.398 90.2344V119.027L216.121 121.629V99.7266C215.676 101.648 214.926 103.5 213.871 105.281C212.84 107.062 211.621 108.645 210.215 110.027C208.809 111.387 207.273 112.488 205.609 113.332C203.969 114.152 202.316 114.562 200.652 114.562C198.121 114.562 195.824 114.047 193.762 113.016C191.699 111.961 189.941 110.566 188.488 108.832C187.035 107.098 185.91 105.105 185.113 102.855C184.34 100.605 183.953 98.2734 183.953 95.8594C183.953 93.2578 184.305 90.6445 185.008 88.0195C185.711 85.3711 186.707 82.8398 187.996 80.4258C189.285 78.0117 190.832 75.75 192.637 73.6406C194.441 71.5312 196.434 69.7031 198.613 68.1562C200.816 66.6094 203.172 65.3906 205.68 64.5C208.211 63.6094 210.836 63.1641 213.555 63.1641C214.562 63.1641 215.641 63.2812 216.789 63.5156C217.961 63.7266 219.027 64.0898 219.988 64.6055C220.973 65.1211 221.781 65.8125 222.414 66.6797C223.07 67.5234 223.398 68.5898 223.398 69.8789ZM258.52 109.816C258.238 110.426 257.887 111 257.465 111.539C257.043 112.078 256.551 112.559 255.988 112.98C255.449 113.402 254.852 113.742 254.195 114C253.562 114.234 252.895 114.352 252.191 114.352C250.34 114.352 249.004 113.848 248.184 112.84C247.387 111.809 246.988 110.414 246.988 108.656V108.023C246.566 108.82 246.086 109.617 245.547 110.414C245.031 111.211 244.434 111.926 243.754 112.559C243.098 113.191 242.359 113.707 241.539 114.105C240.719 114.504 239.805 114.703 238.797 114.703C237.273 114.703 235.926 114.41 234.754 113.824C233.582 113.238 232.598 112.453 231.801 111.469C231.004 110.461 230.406 109.289 230.008 107.953C229.609 106.617 229.41 105.199 229.41 103.699C229.41 101.66 229.762 99.6328 230.465 97.6172C231.191 95.5781 232.199 93.7617 233.488 92.168C234.801 90.5742 236.359 89.2852 238.164 88.3008C239.992 87.293 242.02 86.7891 244.246 86.7891C245.137 86.7891 246.027 86.8711 246.918 87.0352C247.809 87.1992 248.652 87.4688 249.449 87.8438C250.27 88.1953 251.008 88.6641 251.664 89.25C252.344 89.8359 252.895 90.5508 253.316 91.3945L248.078 93.6094C247.797 93.1641 247.469 92.7422 247.094 92.3438C246.742 91.9219 246.344 91.5586 245.898 91.2539C245.477 90.9492 245.02 90.7031 244.527 90.5156C244.035 90.3281 243.52 90.2344 242.98 90.2344C241.762 90.2344 240.672 90.6094 239.711 91.3594C238.773 92.1094 237.965 93.0352 237.285 94.1367C236.629 95.2383 236.125 96.4102 235.773 97.6523C235.422 98.8945 235.246 100.02 235.246 101.027C235.246 101.918 235.328 102.926 235.492 104.051C235.68 105.152 235.996 106.195 236.441 107.18C236.887 108.164 237.473 108.996 238.199 109.676C238.926 110.355 239.84 110.695 240.941 110.695C241.809 110.695 242.559 110.508 243.191 110.133C243.824 109.734 244.363 109.23 244.809 108.621C245.254 107.988 245.617 107.273 245.898 106.477C246.203 105.656 246.426 104.824 246.566 103.98C246.73 103.137 246.836 102.305 246.883 101.484C246.953 100.641 246.988 99.8906 246.988 99.2344V96.8086L253.387 94.5586V108.832C253.387 109.301 253.504 109.734 253.738 110.133C253.973 110.508 254.336 110.695 254.828 110.695C255.414 110.695 255.941 110.484 256.41 110.062C256.902 109.617 257.289 109.172 257.57 108.727L258.52 109.816ZM286.574 100.043C286.574 101.707 286.164 103.406 285.344 105.141C284.547 106.852 283.492 108.422 282.18 109.852C280.867 111.281 279.367 112.453 277.68 113.367C276.016 114.258 274.316 114.703 272.582 114.703C270.965 114.703 269.535 114.434 268.293 113.895C267.051 113.332 266.008 112.57 265.164 111.609C264.32 110.625 263.676 109.477 263.23 108.164C262.809 106.828 262.598 105.387 262.598 103.84V65.8359L269.066 63.5859V105C269.066 105.797 269.172 106.582 269.383 107.355C269.594 108.129 269.91 108.832 270.332 109.465C270.754 110.074 271.281 110.578 271.914 110.977C272.57 111.352 273.344 111.539 274.234 111.539C275.312 111.539 276.25 111.281 277.047 110.766C277.867 110.227 278.547 109.547 279.086 108.727C279.648 107.883 280.059 106.969 280.316 105.984C280.598 105 280.738 104.051 280.738 103.137C280.738 101.777 280.48 100.406 279.965 99.0234C279.473 97.6172 278.781 96.3516 277.891 95.2266C277 94.1016 275.957 93.1641 274.762 92.4141C273.566 91.6641 272.289 91.2305 270.93 91.1133L276.766 86.7891C278.031 87.2109 279.25 87.8789 280.422 88.793C281.617 89.6836 282.672 90.7266 283.586 91.9219C284.5 93.1172 285.227 94.418 285.766 95.8242C286.305 97.2305 286.574 98.6367 286.574 100.043ZM307.879 104.297C307.879 105.75 307.609 107.109 307.07 108.375C306.531 109.641 305.793 110.742 304.855 111.68C303.941 112.617 302.84 113.355 301.551 113.895C300.285 114.434 298.914 114.703 297.438 114.703C296.805 114.703 296.113 114.645 295.363 114.527C294.637 114.41 293.91 114.234 293.184 114C292.457 113.766 291.766 113.473 291.109 113.121C290.477 112.77 289.949 112.348 289.527 111.855L293.676 106.441C293.957 106.887 294.297 107.379 294.695 107.918C295.117 108.434 295.574 108.914 296.066 109.359C296.582 109.805 297.121 110.18 297.684 110.484C298.27 110.766 298.855 110.906 299.441 110.906C300.121 110.906 300.754 110.789 301.34 110.555C301.949 110.32 302.477 109.992 302.922 109.57C303.367 109.125 303.719 108.609 303.977 108.023C304.234 107.438 304.363 106.793 304.363 106.09C304.363 105.152 304.035 104.297 303.379 103.523C302.746 102.727 301.984 101.965 301.094 101.238C300.227 100.488 299.312 99.7266 298.352 98.9531C297.414 98.1562 296.652 97.2891 296.066 96.3516L292.41 101.695L291.039 100.676L295.258 94.8398C294.93 94.1602 294.672 93.4453 294.484 92.6953C294.297 91.9453 294.203 91.1953 294.203 90.4453C294.203 89.8125 294.309 89.1445 294.52 88.4414C294.73 87.7383 295.035 87.0938 295.434 86.5078C295.832 85.9219 296.312 85.4414 296.875 85.0664C297.461 84.668 298.129 84.4688 298.879 84.4688C299.605 84.4688 300.215 84.6914 300.707 85.1367C301.223 85.582 301.48 86.2031 301.48 87C301.48 87.4219 301.41 87.8438 301.27 88.2656C301.129 88.6875 300.953 89.1094 300.742 89.5312C300.531 89.9531 300.297 90.3633 300.039 90.7617C299.781 91.1367 299.535 91.4883 299.301 91.8164C299.863 92.6133 300.473 93.3047 301.129 93.8906C301.785 94.4766 302.43 95.0273 303.062 95.543C303.695 96.0586 304.305 96.5742 304.891 97.0898C305.477 97.6055 305.98 98.1914 306.402 98.8477C306.848 99.5039 307.199 100.266 307.457 101.133C307.738 102 307.879 103.055 307.879 104.297ZM299.898 87.6328C299.898 87.3047 299.781 87.0586 299.547 86.8945C299.336 86.7305 299.09 86.6484 298.809 86.6484C298.41 86.6484 298.129 86.7891 297.965 87.0703C297.801 87.3281 297.719 87.6211 297.719 87.9492C297.719 88.418 297.789 88.875 297.93 89.3203C298.094 89.7656 298.293 90.1875 298.527 90.5859C298.621 90.4219 298.738 90.2109 298.879 89.9531C299.043 89.6953 299.195 89.4258 299.336 89.1445C299.5 88.8398 299.629 88.5586 299.723 88.3008C299.84 88.0195 299.898 87.7969 299.898 87.6328ZM349.996 72.1641C349.996 73.9453 349.645 75.7148 348.941 77.4727C348.238 79.2305 347.289 80.8594 346.094 82.3594C344.922 83.8594 343.562 85.1719 342.016 86.2969C340.469 87.4219 338.863 88.2305 337.199 88.7227L336.461 87.4922C337.445 87 338.348 86.3672 339.168 85.5938C339.988 84.8203 340.691 83.9531 341.277 82.9922C341.863 82.0078 342.309 80.9766 342.613 79.8984C342.941 78.7969 343.105 77.6836 343.105 76.5586C343.105 75.2695 342.918 74.0508 342.543 72.9023C342.168 71.7539 341.617 70.7578 340.891 69.9141C340.164 69.0469 339.262 68.3672 338.184 67.875C337.129 67.3828 335.91 67.1367 334.527 67.1367C332.84 67.1367 331.293 67.4648 329.887 68.1211C328.48 68.7773 327.215 69.668 326.09 70.793C324.965 71.8945 323.98 73.1719 323.137 74.625C322.316 76.0547 321.625 77.5664 321.062 79.1602C320.523 80.7305 320.113 82.3242 319.832 83.9414C319.551 85.5586 319.41 87.082 319.41 88.5117C319.41 89.9648 319.562 91.4648 319.867 93.0117C320.172 94.5586 320.617 96.082 321.203 97.582C321.789 99.082 322.516 100.5 323.383 101.836C324.25 103.172 325.246 104.344 326.371 105.352C327.52 106.359 328.785 107.168 330.168 107.777C331.574 108.363 333.098 108.656 334.738 108.656C335.863 108.656 336.953 108.504 338.008 108.199C339.086 107.895 340.117 107.484 341.102 106.969C342.086 106.453 343.012 105.844 343.879 105.141C344.77 104.438 345.59 103.676 346.34 102.855L347.5 103.98C346.469 105.34 345.238 106.652 343.809 107.918C342.402 109.16 340.879 110.273 339.238 111.258C337.598 112.219 335.875 112.992 334.07 113.578C332.289 114.141 330.52 114.422 328.762 114.422C327.051 114.422 325.434 114.129 323.91 113.543C322.41 112.934 321.027 112.125 319.762 111.117C318.496 110.086 317.359 108.891 316.352 107.531C315.367 106.148 314.523 104.684 313.82 103.137C313.141 101.59 312.613 99.9961 312.238 98.3555C311.887 96.7148 311.711 95.1094 311.711 93.5391C311.711 91.2656 312.086 88.9336 312.836 86.543C313.609 84.1289 314.664 81.7969 316 79.5469C317.336 77.2734 318.906 75.1289 320.711 73.1133C322.539 71.0977 324.496 69.3398 326.582 67.8398C328.691 66.3398 330.883 65.1562 333.156 64.2891C335.453 63.3984 337.738 62.9531 340.012 62.9531C341.418 62.9531 342.73 63.1641 343.949 63.5859C345.168 63.9844 346.223 64.5703 347.113 65.3438C348.004 66.1172 348.707 67.0781 349.223 68.2266C349.738 69.375 349.996 70.6875 349.996 72.1641ZM367.574 109.887C367.293 110.496 366.93 111.07 366.484 111.609C366.062 112.148 365.582 112.629 365.043 113.051C364.504 113.473 363.906 113.801 363.25 114.035C362.617 114.293 361.961 114.422 361.281 114.422C359.453 114.422 358.117 113.918 357.273 112.91C356.453 111.879 356.043 110.484 356.043 108.727V65.8359L362.512 63.5859V108.902C362.512 109.371 362.617 109.805 362.828 110.203C363.039 110.578 363.414 110.766 363.953 110.766C364.492 110.766 364.996 110.555 365.465 110.133C365.957 109.688 366.344 109.254 366.625 108.832L367.574 109.887ZM395.523 107.145C394.703 108.199 393.801 109.184 392.816 110.098C391.855 111.012 390.801 111.809 389.652 112.488C388.527 113.168 387.332 113.707 386.066 114.105C384.801 114.504 383.488 114.703 382.129 114.703C380.395 114.703 378.801 114.398 377.348 113.789C375.895 113.156 374.641 112.301 373.586 111.223C372.531 110.121 371.711 108.832 371.125 107.355C370.539 105.855 370.246 104.25 370.246 102.539C370.246 101.133 370.445 99.75 370.844 98.3906C371.242 97.0312 371.805 95.7539 372.531 94.5586C373.258 93.3633 374.113 92.2617 375.098 91.2539C376.105 90.2227 377.207 89.3438 378.402 88.6172C379.598 87.8906 380.863 87.3281 382.199 86.9297C383.535 86.5078 384.906 86.2969 386.312 86.2969C387.297 86.2969 388.223 86.4141 389.09 86.6484C389.98 86.8828 390.766 87.2578 391.445 87.7734C392.125 88.2656 392.664 88.9102 393.062 89.707C393.461 90.4805 393.66 91.4062 393.66 92.4844C393.66 93.375 393.391 94.3125 392.852 95.2969C392.336 96.2812 391.645 97.2656 390.777 98.25C389.934 99.2344 388.973 100.207 387.895 101.168C386.816 102.105 385.715 102.984 384.59 103.805C383.488 104.602 382.422 105.305 381.391 105.914C380.359 106.523 379.457 106.992 378.684 107.32C379.551 108.398 380.559 109.277 381.707 109.957C382.855 110.637 384.074 110.977 385.363 110.977C386.184 110.977 387.016 110.824 387.859 110.52C388.703 110.191 389.512 109.781 390.285 109.289C391.082 108.797 391.832 108.258 392.535 107.672C393.262 107.086 393.906 106.535 394.469 106.02L395.523 107.145ZM387.051 93.7852C387.051 93.2461 386.957 92.7305 386.77 92.2383C386.605 91.7461 386.359 91.3242 386.031 90.9727C385.703 90.5977 385.305 90.3047 384.836 90.0938C384.391 89.8594 383.875 89.7422 383.289 89.7422C382.234 89.7422 381.262 90.1172 380.371 90.8672C379.48 91.5938 378.707 92.4961 378.051 93.5742C377.418 94.6523 376.914 95.8008 376.539 97.0195C376.188 98.2148 376.012 99.2695 376.012 100.184C376.012 101.074 376.152 101.988 376.434 102.926C376.715 103.863 377.102 104.766 377.594 105.633C378.531 105.117 379.551 104.402 380.652 103.488C381.754 102.574 382.773 101.578 383.711 100.5C384.672 99.3984 385.469 98.2617 386.102 97.0898C386.734 95.918 387.051 94.8164 387.051 93.7852ZM428.113 109.816C427.832 110.426 427.48 111 427.059 111.539C426.637 112.078 426.145 112.559 425.582 112.98C425.043 113.402 424.445 113.742 423.789 114C423.156 114.234 422.488 114.352 421.785 114.352C419.934 114.352 418.598 113.848 417.777 112.84C416.98 111.809 416.582 110.414 416.582 108.656V108.023C416.16 108.82 415.68 109.617 415.141 110.414C414.625 111.211 414.027 111.926 413.348 112.559C412.691 113.191 411.953 113.707 411.133 114.105C410.312 114.504 409.398 114.703 408.391 114.703C406.867 114.703 405.52 114.41 404.348 113.824C403.176 113.238 402.191 112.453 401.395 111.469C400.598 110.461 400 109.289 399.602 107.953C399.203 106.617 399.004 105.199 399.004 103.699C399.004 101.66 399.355 99.6328 400.059 97.6172C400.785 95.5781 401.793 93.7617 403.082 92.168C404.395 90.5742 405.953 89.2852 407.758 88.3008C409.586 87.293 411.613 86.7891 413.84 86.7891C414.73 86.7891 415.621 86.8711 416.512 87.0352C417.402 87.1992 418.246 87.4688 419.043 87.8438C419.863 88.1953 420.602 88.6641 421.258 89.25C421.938 89.8359 422.488 90.5508 422.91 91.3945L417.672 93.6094C417.391 93.1641 417.062 92.7422 416.688 92.3438C416.336 91.9219 415.938 91.5586 415.492 91.2539C415.07 90.9492 414.613 90.7031 414.121 90.5156C413.629 90.3281 413.113 90.2344 412.574 90.2344C411.355 90.2344 410.266 90.6094 409.305 91.3594C408.367 92.1094 407.559 93.0352 406.879 94.1367C406.223 95.2383 405.719 96.4102 405.367 97.6523C405.016 98.8945 404.84 100.02 404.84 101.027C404.84 101.918 404.922 102.926 405.086 104.051C405.273 105.152 405.59 106.195 406.035 107.18C406.48 108.164 407.066 108.996 407.793 109.676C408.52 110.355 409.434 110.695 410.535 110.695C411.402 110.695 412.152 110.508 412.785 110.133C413.418 109.734 413.957 109.23 414.402 108.621C414.848 107.988 415.211 107.273 415.492 106.477C415.797 105.656 416.02 104.824 416.16 103.98C416.324 103.137 416.43 102.305 416.477 101.484C416.547 100.641 416.582 99.8906 416.582 99.2344V96.8086L422.98 94.5586V108.832C422.98 109.301 423.098 109.734 423.332 110.133C423.566 110.508 423.93 110.695 424.422 110.695C425.008 110.695 425.535 110.484 426.004 110.062C426.496 109.617 426.883 109.172 427.164 108.727L428.113 109.816ZM461.125 109.887C460.844 110.496 460.48 111.07 460.035 111.609C459.59 112.148 459.086 112.629 458.523 113.051C457.984 113.473 457.398 113.801 456.766 114.035C456.133 114.293 455.477 114.422 454.797 114.422C452.945 114.422 451.598 113.918 450.754 112.91C449.934 111.879 449.523 110.484 449.523 108.727V94.418C449.523 94.2539 449.512 94.0664 449.488 93.8555C449.488 93.6211 449.453 93.4102 449.383 93.2227C449.312 93.0117 449.219 92.8359 449.102 92.6953C448.984 92.5547 448.82 92.4844 448.609 92.4844C447.953 92.4844 447.285 92.8828 446.605 93.6797C445.949 94.4766 445.305 95.5078 444.672 96.7734C444.062 98.0391 443.488 99.457 442.949 101.027C442.434 102.598 441.977 104.156 441.578 105.703C441.18 107.227 440.863 108.656 440.629 109.992C440.418 111.328 440.312 112.395 440.312 113.191L433.914 115.441V91.8164C433.914 91.3477 433.797 90.9258 433.562 90.5508C433.328 90.1523 432.965 89.9531 432.473 89.9531C431.887 89.9531 431.348 90.1758 430.855 90.6211C430.387 91.043 430.012 91.4648 429.73 91.8867L428.781 90.832C429.062 90.2461 429.414 89.6836 429.836 89.1445C430.281 88.582 430.773 88.0898 431.312 87.668C431.875 87.2461 432.473 86.918 433.105 86.6836C433.762 86.4258 434.441 86.2969 435.145 86.2969C436.973 86.2969 438.285 86.8125 439.082 87.8438C439.902 88.8516 440.312 90.2227 440.312 91.957V103.418C440.523 102.457 440.805 101.367 441.156 100.148C441.531 98.9062 441.977 97.6523 442.492 96.3867C443.008 95.1211 443.582 93.8906 444.215 92.6953C444.871 91.4766 445.586 90.3984 446.359 89.4609C447.133 88.5 447.977 87.7383 448.891 87.1758C449.805 86.5898 450.789 86.2969 451.844 86.2969C452.945 86.2969 453.777 86.543 454.34 87.0352C454.902 87.5039 455.301 88.1133 455.535 88.8633C455.793 89.5898 455.934 90.3984 455.957 91.2891C455.98 92.1797 455.992 93.0352 455.992 93.8555V108.902C455.992 109.371 456.109 109.805 456.344 110.203C456.578 110.578 456.941 110.766 457.434 110.766C457.973 110.766 458.477 110.555 458.945 110.133C459.438 109.688 459.824 109.254 460.105 108.832L461.125 109.887Z" fill="#FDFFFF"/>
+                        <path d="M75 0L139.952 85.5H10.0481L75 0Z" fill="#FDFFFF"/>
+                        </svg>
+                        
+                    </a>  </div>
+                  
+                </div>
+                <div class="col-md-9">
+                  <div class="menu_text">
+                    <ul>
+                      <div class="togle_3">
+                        <div class="menu_main">
+                          <!-- <span class="padding_left0"><a href="#">contact</a></span></div> -->
+                        </div>
+                        <!-- <div class="shoping_bag"><img src="{% static 'images/search-icon.png' %}"></div> -->
+                       
+                      </div> 
+                      <div id="myNav" class="overlay">
+                      <a href="javascript:void(0)" style="margin: 20px" class="closebtn" onclick="closeNav()">&times;</a>
+                      <div class="overlay-content">
+                        <a href="#index">Home</a>
+                        <a href="#services">Services</a>
+                        <a href="#about">About</a>
+                        <a href="#choose">Choose</a>
+                        <!-- <a href="team.html">Team</a> -->
+                        <a href="#contact">Contact Us</a>
+                      </div>
+                      </div>
+                      <span class="navbar-toggler-icon"></span>
+                      <span onclick="openNav()"><img src="images/toggle-icon.png" class="toggle_menu"></span>
+                    </ul>
+                  </div>      
+                </div>
+              </div>
+            </div>
+          <!-- banner section start -->
+          <div class="banner_section layout_padding" id="choose">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-5">
+                  <h1 class="banner_taital">Best YOUR</h1> 
+                  <h1 class="banner_taital_1">house CLEAN</h1>
+                  <p class="banner_text">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
+                  <div class="contact_bt"><a href="contact.html">CONTACT US<span class="contact_padding"><img src="images/contact-icon.png"></span></a></div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="play_icon"><a href="#"><img src="images/play-icon.png"></a></div>
+                </div>
+                <div class="col-sm-5">
+                  <div><img src="images/img-1.png" class="image_1"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- banner section end -->
+          </div>
+          <!-- header section end -->
+          <!-- services section start -->
+          <div class="services_section layout_padding" id="services">
+            <div class="container">
+              <h1 class="services_taital"><span>Our</span> <img src="images/icon-1.png"> <span style="color: #1f1f1f">Services</span></h1>
+              <p class="services_text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+              <div id="main_slider" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="services_section_2 layout_padding">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="box_section active">
+                            <div class="tiles_img"></div>
+                            <h3 class="tile_text active">Tile & Grout</h3>
+                            <p class="lorem_text active">Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor </p>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="box_section">
+                            <div class="tiles_img_1"></div>
+                            <h3 class="tile_text">Carpet Cleaning</h3>
+                            <p class="lorem_text">Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="services_section_2 layout_padding">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="box_section active">
+                            <div class="tiles_img"></div>
+                            <h3 class="tile_text active">Tile & Grout</h3>
+                            <p class="lorem_text active">Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor </p>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="box_section">
+                            <div class="tiles_img_1"></div>
+                            <h3 class="tile_text">Carpet Cleaning</h3>
+                            <p class="lorem_text">Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="services_section_2 layout_padding">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="box_section active">
+                            <div class="tiles_img"></div>
+                            <h3 class="tile_text active">Tile & Grout</h3>
+                            <p class="lorem_text active">Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor </p>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="box_section">
+                            <div class="tiles_img_1"></div>
+                            <h3 class="tile_text">Carpet Cleaning</h3>
+                            <p class="lorem_text">Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+                  <i class="fa fa-angle-left"></i>
+                </a>
+                <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+                  <i class="fa fa-angle-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- services section ends -->
+          <!-- about section start -->
+          <div class="about_section layout_padding" id="about">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <div><img src="images/img-2.png" class="image_2"></div>
+                </div>
+                <div class="col-md-6">
+                  <h1 class="services_taital"><span>About </span> <img src="images/icon-1.png"> <span style="color: #1f1f1f">Cleaning</span></h1>
+                  <p class="ipsum_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                  <div class="contact_bt_1"><a href="#">READ MORE<span class="contact_padding"><img src="images/contact-icon1.png"></span></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- about section end -->
+          <!-- choose section start -->
+          <div class="choose_section layout_padding">
+            <div class="container">
+              <h1 class="choose_taital"><span>Why </span> <img src="images/icon-1.png"> <span style="color: #1f1f1f">Choose Us</span></h1>
+              <p class="choose_text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+              <div class="choose_section_2 layout_padding">
+                <div class="row">
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="choose_box">
+                      <h1 class="client_taital">12004+</h1>
+                      <h4 class="client_text">Our clients</h4>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="choose_box">
+                      <h1 class="client_taital">10004+</h1>
+                      <h4 class="client_text">Happy clients</h4>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="choose_box">
+                      <h1 class="client_taital">804+</h1>
+                      <h4 class="client_text">Supports</h4>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="choose_box">
+                      <h1 class="client_taital">905+</h1>
+                      <h4 class="client_text">Awards</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="image_3"><img src="images/img-3.png"></div>
+                <div class="get_bt"><a href="#">Get A quote</a></div>
+              </div>
+            </div>
+          </div>
+          <!-- choose section end -->
+          <!-- team section start -->
+          <div class="team_section layout_padding">
+            <div class="container">
+              <h1 class="choose_taital"><span>Our </span> <img src="images/icon-1.png"> <span style="color: #1f1f1f">Team</span></h1>
+              <p class="choose_text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+              <div class="team_section_2 layout_padding">
+                <div class="container">
+                  <div class="images_main_1">
+                    <div class="row">
+                      <div class="col-sm-5">
+                        <div class="image_4"><img src="images/img-4.png"></div>
+                        <h6 class="follow_text">Follow Us</h6>
+                        <div class="follow_social_icon">
+                          <ul>
+                            <li><a href="#"><img src="images/fb-icon.png"></a></li>
+                            <li><a href="#"><img src="images/twitter-icon.png"></a></li>
+                            <li><a href="#"><img src="images/linkden-icon.png"></a></li>
+                            <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-sm-7">
+                        <h2 class="consectetur_text">Consectetur</h2>
+                        <p class="dummy_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="images_main">
+                    <div class="row">
+                      <div class="col-sm-7">
+                        <h2 class="consectetur_text_1">magna aliqua</h2>
+                        <p class="dummy_text_1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+                      </div>
+                      <div class="col-sm-5">
+                        <div class="image_4"><img src="images/img-5.png"></div>
+                        <h6 class="follow_text">Follow Us</h6>
+                        <div class="follow_social_icon">
+                          <ul>
+                            <li><a href="#"><img src="images/fb-icon.png"></a></li>
+                            <li><a href="#"><img src="images/twitter-icon.png"></a></li>
+                            <li><a href="#"><img src="images/linkden-icon.png"></a></li>
+                            <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="images_main_1">
+                    <div class="row">
+                      <div class="col-sm-5">
+                        <div class="image_4"><img src="images/img-6.png"></div>
+                        <h6 class="follow_text">Follow Us</h6>
+                        <div class="follow_social_icon">
+                          <ul>
+                            <li><a href="#"><img src="images/fb-icon.png"></a></li>
+                            <li><a href="#"><img src="images/twitter-icon.png"></a></li>
+                            <li><a href="#"><img src="images/linkden-icon.png"></a></li>
+                            <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-sm-7">
+                        <h2 class="consectetur_text">Aonsectetur</h2>
+                        <p class="dummy_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="images_main">
+                    <div class="row">
+                      <div class="col-sm-7">
+                        <h2 class="consectetur_text_1">Nonsectetur</h2>
+                        <p class="dummy_text_1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+                      </div>
+                      <div class="col-sm-5">
+                        <div class="image_4"><img src="images/img-7.png"></div>
+                        <h6 class="follow_text">Follow Us</h6>
+                        <div class="follow_social_icon">
+                          <ul>
+                            <li><a href="#"><img src="images/fb-icon.png"></a></li>
+                            <li><a href="#"><img src="images/twitter-icon.png"></a></li>
+                            <li><a href="#"><img src="images/linkden-icon.png"></a></li>
+                            <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- team section start -->
+          <!-- newsletter section start -->
+          <div class="newsletter_section">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <h1 class="newsletter_text">Newsletter</h1>
+                  <p class="tempor_text">Tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+                <div class="col-md-6">
+                  <div class="mail_bt_main">
+                    <input type="text" class="mail_text" placeholder="ENTER YOUR MAIL" name="Enter Tour Mail">
+                    <div class="subscribe_bt"><a href="#">SUBSCRIBE</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- newsletter section end -->
+          <!-- footer section start -->
+          <div class="footer_section layout_padding">
+            <div class="container">
+              <div class="footer_main">
+                <div class="footer_left">
+                  <h1 class="contact_taital"><span>Contact </span> <img src="images/icon-2.png"> <span>Us</span></h1>
+                </div>
+                <div class="footer_left">
+                  <div class="location_text"><a href="#"><img src="images/map-icon.png"><span class="padding_left_15">Locations</span></a></div>
+                </div>
+                <div class="footer_left">
+                  <div class="location_text"><a href="#"><img src="images/call-icon.png"><span class="padding_left_15">+971 50 814 3404</span></a></div>
+                </div>
+                <div class="footer_left">
+                  <div class="location_text"><a href="#"><img src="images/map-icon.png"><span class="padding_left_15">gabrielcoder247@gmail.com</span></a></div>
+                </div>
+              </div>
+              <div class="contact_section">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="mail_section">
+                      <form method="post" action="#">
+                        
+                        <!-- <input type="" class="email_text" placeholder="Name" name="name"> -->
+                        <input type="" class="email_text" placeholder="Email" name="email">
+                        <!-- <input type="" class="email_text" placeholder="Phone Number" name="phone-number"> -->
+                        <textarea class="massage_text" placeholder="Message...." rows="5" id="comment" name="message"></textarea>
+                        <div class="send_bt"><input type="submit" /></div>
+                        <!-- <textarea name="message" placeholder="Message..."></textarea> -->
+                        
+                      </form>
+                     
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="map_main">
+                      <div class="map-responsive">
+                        <!-- <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width="600" height="280" frameborder="0" style="border:0; width: 100%;" allowfullscreen></iframe> -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.411223620723!2d55.29743871371924!3d25.256748535482764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f432eef50357d%3A0xd20b3a2dcd77d411!2sDusk%20Travel%20and%20Tourism!5e0!3m2!1sen!2sae!4v1599250191275!5m2!1sen!2sae" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                      </div>
+                    </div>
+                    <div class="social_icon">
+                      <ul>
+                        <li><a href="#"><img src="images/fb-icon1.png"></a></li>
+                        <li><a href="#"><img src="images/twitter-icon1.png"></a></li>
+                        <li><a href="#"><img src="images/linkden-icon1.png"></a></li>
+                        <li><a href="#"><img src="images/instagram-icon1.png"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- footer section end -->
+          <!-- copyright section start -->
+          <div class="copyright_section">
+            <div class="container">
+              <p class="copyright_text">Copyright 2020 All Right Reserved By <a href="https://html.design">Code Priest</a></p>
+            </div>
+          </div>
+          <!-- copyright section end -->
+          <!-- Javascript files-->
+          <script src="js/jquery.min.js"></script>
+          <script src="js/popper.min.js"></script>
+          <script src="js/bootstrap.bundle.min.js"></script>
+          <script src="js/jquery-3.0.0.min.js"></script>
+          <script src="js/plugin.js"></script>
+          <!-- sidebar -->
+          <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+          <script src="js/custom.js"></script>
+          <!-- javascript --> 
+          <script src="js/owl.carousel.js"></script>
+          <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+          <script>
+          $(document).ready(function(){
+          $(".fancybox").fancybox({
+          openEffect: "none",
+          closeEffect: "none"
+          });
+               
+          $(".zoom").hover(function(){
+               
+          $(this).addClass('transition');
+          }, function(){
+               
+          $(this).removeClass('transition');
+          });
+          });
+          </script> 
+          <script>
+           function openNav() {
+           document.getElementById("myNav").style.width = "100%";
+          }
+           function closeNav() {
+           document.getElementById("myNav").style.width = "0%";
+          }
+          </script>  
+  
+
